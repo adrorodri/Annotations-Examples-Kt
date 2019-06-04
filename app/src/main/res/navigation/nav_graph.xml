@@ -2,8 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
-            app:startDestination="@id/runtimeAnnotationFragment">
-    <fragment android:id="@+id/runtimeAnnotationFragment"
-              android:name="com.adrorodri.annotationsexmples.ui.RuntimeAnnotationFragment"
+            app:startDestination="@id/runtimeFragment">
+    <fragment android:id="@+id/runtimeFragment"
+              android:name="com.adrorodri.annotationsexamples.ui.fragments.RuntimeFragment"
               android:label="fragment_runtime_annotation" tools:layout="@layout/fragment_runtime_annotation"/>
+    <fragment android:id="@+id/generateSourceFragment" android:name="com.adrorodri.annotationsexamples.ui.fragments.GenerateSouceFragment"
+              android:label="fragment_binary" tools:layout="@layout/fragment_generate_source"/>
+    <fragment android:id="@+id/checkSourceFragment" android:name="com.adrorodri.annotationsexamples.ui.fragments.CheckSourceFragment"
+              android:label="fragment_source" tools:layout="@layout/fragment_check_source"/>
 </navigation>

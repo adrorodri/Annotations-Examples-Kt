@@ -1,4 +1,4 @@
-package com.adrorodri.annotationsexmples
+package com.adrorodri.annotationsexamples
 
 import org.junit.Test
 

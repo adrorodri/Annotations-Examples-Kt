@@ -1,4 +1,4 @@
-package com.adrorodri.annotationsexmples
+package com.adrorodri.annotationsexamples
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.adrorodri.annotationsexmples.models.anotations
+package com.adrorodri.annotationsexamples.runtimeAnnotations
 
 @Target(AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.RUNTIME)

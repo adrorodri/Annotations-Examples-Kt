@@ -1,6 +1,4 @@
-package com.adrorodri.annotationsexmples.models.annotationsProcessors
-
-import com.adrorodri.annotationsexmples.models.anotations.RuntimeReflectionTestAnnotation
+package com.adrorodri.annotationsexamples.runtimeAnnotations
 
 class RuntimeProcessor {
     companion object {

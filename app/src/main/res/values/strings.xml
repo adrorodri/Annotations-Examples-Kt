@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Annotations Examples</string>
     <string name="title_runtime">Runtime</string>
-    <string name="title_binary">Binary</string>
-    <string name="title_source">Source</string>
+    <string name="title_generate_source">Generate Source</string>
+    <string name="title_check_source">Check Source</string>
+    <string name="check_source_string">Check Source Code!</string>
+    <string name="generated_code_string">Check Generated Code!</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.adrorodri.annotationsexmples.ui
+package com.adrorodri.annotationsexamples.ui.fragments
 
 
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.adrorodri.annotationsexmples.R
-import com.adrorodri.annotationsexmples.models.annotationsProcessors.RuntimeProcessor
-import com.adrorodri.annotationsexmples.models.anotations.RuntimeReflectionTestAnnotation
+import com.adrorodri.annotationsexamples.R
+import com.adrorodri.annotationsexamples.runtimeAnnotations.RuntimeProcessor
+import com.adrorodri.annotationsexamples.runtimeAnnotations.RuntimeReflectionTestAnnotation
 import kotlinx.android.synthetic.main.fragment_runtime_annotation.*
 
-class RuntimeAnnotationFragment : Fragment() {
+class RuntimeFragment : Fragment() {
 
     @RuntimeReflectionTestAnnotation(5)
     private var value: Int = 1000
@@ -28,14 +28,12 @@ class RuntimeAnnotationFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         tvPreviousValue.text = String.format("before reflection processing %s", value.toString())
-
         RuntimeProcessor.bindReflectionValue(this)
-
         tvNewValue.text = String.format("after reflection processing %s", value.toString())
     }
 
     companion object {
         @JvmStatic
-        fun newInstance() = RuntimeAnnotationFragment()
+        fun newInstance() = RuntimeFragment()
     }
 }
