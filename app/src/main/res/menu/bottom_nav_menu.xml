@@ -7,12 +7,12 @@
             android:title="@string/title_runtime"/>
 
     <item
-            android:id="@+id/generateSourceFragment"
+            android:id="@id/generateSourceFragment"
             android:icon="@drawable/ic_settings"
             android:title="@string/title_generate_source"/>
 
     <item
-            android:id="@+id/checkSourceFragment"
+            android:id="@id/checkSourceFragment"
             android:icon="@drawable/ic_check"
             android:title="@string/title_check_source"/>
 

@@ -6,7 +6,7 @@
     <fragment android:id="@+id/runtimeFragment"
               android:name="com.adrorodri.annotationsexamples.ui.fragments.RuntimeFragment"
               android:label="fragment_runtime_annotation" tools:layout="@layout/fragment_runtime_annotation"/>
-    <fragment android:id="@+id/generateSourceFragment" android:name="com.adrorodri.annotationsexamples.ui.fragments.GenerateSouceFragment"
+    <fragment android:id="@+id/generateSourceFragment" android:name="com.adrorodri.annotationsexamples.ui.fragments.GenerateSourceFragment"
               android:label="fragment_binary" tools:layout="@layout/fragment_generate_source"/>
     <fragment android:id="@+id/checkSourceFragment" android:name="com.adrorodri.annotationsexamples.ui.fragments.CheckSourceFragment"
               android:label="fragment_source" tools:layout="@layout/fragment_check_source"/>

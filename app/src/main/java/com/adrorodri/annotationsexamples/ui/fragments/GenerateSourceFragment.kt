@@ -10,7 +10,7 @@ import com.adrorodri.annotation.GenerateSourceTestAnnotation
 import com.adrorodri.annotationsexamples.R
 import kotlinx.android.synthetic.main.fragment_generate_source.*
 
-class GenerateSouceFragment : Fragment() {
+class GenerateSourceFragment : Fragment() {
 
     @GenerateSourceTestAnnotation(3)
     var test: Int = 5
@@ -33,6 +33,6 @@ class GenerateSouceFragment : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = GenerateSouceFragment()
+        fun newInstance() = GenerateSourceFragment()
     }
 }
